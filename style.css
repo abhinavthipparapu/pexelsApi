@@ -1,0 +1,32 @@
+body{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}
+.display{
+    display: grid ;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+.pagination{
+    justify-content: center;
+}
